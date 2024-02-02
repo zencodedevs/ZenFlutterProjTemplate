@@ -1,0 +1,16 @@
+linter:
+  rules:
+    no_default_cases: false
+    flutter_style_todos: false
+    one_member_abstracts: false
+    public_member_api_docs: false
+    sort_constructors_first: false
+    require_trailing_commas: false
+    lines_longer_than_80_chars: false
+    prefer_asserts_with_message: false
+    sort_unnamed_constructors_first: false
+    always_put_required_named_parameters_first: false
+analyzer:
+  exclude:
+    - '**.freezed.dart'
+    - '**.g.dart'
